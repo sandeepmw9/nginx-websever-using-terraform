@@ -1,4 +1,4 @@
-resource "aws_instance" "test_remote_exec" {
+resource "aws_instance" "an_ec2_instance" {
   ami                    = var.ami
   instance_type          = var.instance_type
   key_name               = aws_key_pair.for_remote_exec.key_name
