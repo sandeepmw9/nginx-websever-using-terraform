@@ -3,10 +3,10 @@ variable "name" {
   default = "nginx-web-server"
 }
 
-variable "region" {
-  type = string
-  default = "ap-south-1"
-}
+# variable "region" {
+#   type = string
+#   default = "ap-south-1"
+# }
 
 variable "ports" {
   type = list(string)

@@ -1,3 +1,13 @@
 provider "aws" {
-    region = var.region
+    region = "ap-south-1"
+}
+
+provider "aws" {
+    region = "ap-south-1"
+    alias = "in"
+}
+
+provider "aws" {
+    region = "us-east-1"
+    alias = "us"
 }
